@@ -1,0 +1,156 @@
+h3 {
+    color: black;
+
+}
+
+body {
+    background-color: #1f4690;
+}
+.park-site {
+    text-decoration: none;
+    color:rgb(80, 228, 228);
+
+}
+
+
+
+#facts {
+    text-align: center;
+    color: white;
+    margin: 5% 2%;
+    padding: 20px 20px;
+    border-radius: 10px 10px 5px 5px;
+}
+#whyvisit{
+    text-align: center;
+    color: white;
+    font-family: 'ubuntu';
+    font-size:1.3rem;
+    background-color: rgba(65, 131, 218, 0.9);
+    border-radius: 10px;
+    margin: 7% 20%;
+    padding:15px;
+
+}
+#added-info{
+    text-align: center;
+    color: white;
+    font-family: 'ubuntu';
+    font-size:1.3rem;
+    background-color: rgba(65, 131, 218, 0.9);
+    border-radius: 10px;
+    margin: 7% 2%;
+    padding:15px;
+    height:500px;
+    overflow:scroll;
+    
+}
+
+#pricing {
+    text-align: center;
+    color: white;
+    background-color: #1f4690;
+    margin:1% 3%;
+   
+    
+}
+
+#cta {
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    font-weight: bold;
+    background-color: rgba(65, 131, 218, 0.9);
+    margin: 7% 7%;
+    padding: 40px;
+}
+
+#footer {
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.bodytext{
+    margin: 4% 2%;
+    padding: 20px 20px;
+    font-family: 'ubuntu';
+    font-size:1.2rem;
+    line-height: 1.7;
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+
+.nav-style {
+    font-family: "ubuntu";
+    background-color: #1f4690;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.carousel-item {
+    height: 40rem;
+    background-color: #0777c2;
+
+}
+.slide-1{
+    background: rgba(0, 0, 0, 0.3)url('../images/kellyrock.jpg') 50% 50% / 100% no-repeat fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    
+}
+
+.slide-2{
+    background: rgba(0, 0, 0, 0.3)url('../images/rainbowsprings.jpg') 50% 50% / 100% no-repeat fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.slide-3{
+    background: rgba(0, 0, 0, 0.5)url('../images/devilsden.jpg') 50% 50% / 100% no-repeat fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.aqua-txt{
+    font-size:3rem;
+    font-weight:bold;
+}
+
+
+
+.icon {
+    padding: 20px;
+    color:rgb(15, 219, 219);
+}
+.springtxt{
+    color:white;
+    font-size:2rem;
+    font-weight:bold;
+}
+
+
+.card-img{
+    width: 100%;
+    height: 13vw;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.check-out {
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height:1.7;
+}
+.fun-image{
+    position:relative;
+    top:35px;
+    margin:2% 7%;
+    border-radius: 100%;
+    transform: rotate(5deg);
+}
