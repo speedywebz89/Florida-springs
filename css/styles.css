@@ -154,3 +154,23 @@ body {
     border-radius: 100%;
     transform: rotate(5deg);
 }
+
+@media ( max-width:480px){
+
+    .card-img{
+        
+        height:200px;
+        width:100%;
+    }
+
+
+
+}
+@media ( max-width:760px){
+
+    .card-img{
+        
+        height:200px;
+        width:100%;
+    }
+}
