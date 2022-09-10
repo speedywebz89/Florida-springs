@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +17,6 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Florida's natural springs</title>
 </head>
-
 <body>
     <header id="header-section">
         <nav class="navbar navbar-expand-lg navbar-dark nav-style">
@@ -46,7 +44,7 @@
                 </div>
             </div>
         </nav>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -58,21 +56,21 @@
             <div class="carousel-inner">
                 <div class="carousel-item active slide-1">
                     <div class="carousel-caption d-md-block">
-                        <h1>Kelly Rock Springs</h1>
-                        <p>400 E Kelly Park Rd, Apopka, FL 32712</p>
+                        <h1 class="slider-text"><strong>Kelly Rock Springs</strong></h1>
+                        <p class="slider-add">400 E Kelly Park Rd, Apopka, FL 32712</p>
                     </div>
                 </div>
                 <div class="carousel-item slide-2">
                     <div class="carousel-caption d-md-block">
-                        <h1>Rainbow springs</h1>
-                        <p>19158 S.W. 81st Place Road
+                        <h1 class="slider-text"><strong>Rainbow springs</strong></h1>
+                        <p class="slider-add">19158 S.W. 81st Place Road
                             Dunnellon FL 34432</p>
                     </div>
                 </div>
                 <div class="carousel-item slide-3">
                     <div class="carousel-caption d-md-block">
-                        <h1>The Devils Den</h1>
-                        <p>5390 NE 180th Ave Williston, FL 32696</p>
+                        <h1 class="slider-text"><strong>The Devils Den</strong></h1>
+                        <p class="slider-add">5390 NE 180th Ave Williston, FL 32696</p>
                     </div>
                 </div>
             </div>
@@ -88,9 +86,6 @@
             </button>
         </div>
     </header>
-
-
-
     <section id="facts">
         <div class="row">
             <div class="feature-box col-lg-4">
@@ -111,17 +106,16 @@
                 <p class="bodytext">They provide a natural habitat for wildlife and plants. Spring vents are windows
                     into the aquifer,
                     which is the major source of floridans drinking water.</p>
+                </div>
             </div>
-        </div>
-
     </section>
-
     <section id="whyvisit">
         <h2 class="aqua-txt">The Floridan Aquifer</h2>
         <p class="bodytext">The technical name for this porous limestone that underlines the Florida peninsula – in some
             spots thousands of feet thick – is the Floridan aquifer. Tens of thousands of years ago, when the Florida
             landmass emerged from the sea, the lime rock "trapped" the sea water.</p>
-        <p class="bodytext">The exposed limestone collects freshwater, and below this freshwater lens, the rock holds
+            <img class="aquifer-image" src="images/aquifer.jpg" alt="aquifer image">
+            <p class="bodytext">The exposed limestone collects freshwater, and below this freshwater lens, the rock holds
             saltwater. Over the years, the rains and freshwater began to form tunnels and cavities, collecting in what
             would become a giant reservoir. In some areas, where the crust is thin, the water bubbles to the surface.
         </p>
@@ -130,12 +124,14 @@
             river. Early humans gathered by the springs where they fed on mastodon, mammoth, ground sloth, giant
             armadillo and beaver. Today, divers sometimes find bones and teeth, as well as stone-age tools, from this
             forgotten age.</p>
+            <img class="aquifer-image" src="images/armadillo.jpg" alt="aquifer image">
     </section>
 
     <section id="added-info">
         <div class="row">
             <div class="feature-box box-1 col-lg-6">
                 <h2 class="springtxt">Florida State Parks</h2>
+                <img class="state-image" src="images/palmtree.jpg" alt="aquifer image">
                 <p class="bodytext">While some springs are privately owned, Florida has 15 state parks that preserve and
                     protect the public access to the aquifer.In Northwest Florida, Ponce de Leon State Park has a main
                     spring that produces 14 million gallons of invigorating 68-degree water every day. A dip in this
@@ -152,7 +148,7 @@
                 <p class="bodytext">There are way too many springs to list them all! My personal favorites are listed in
                     the header of this page. To explore all of the springs in Florida visit the State Parks <a
                         class="park-site"
-                        href="https://www.floridastateparks.org/learn/springs-florida-state-parks"><em>website</em></a>!
+                        href="https://www.floridastateparks.org/learn/springs-florida-state-parks"> <em>website</em></a> .
                 </p>
             </div>
             <div class="feature-box box-2 col-lg-6">
@@ -171,15 +167,14 @@
                     aquifer is part of an extensive aquifer system, called the Floridan aquifer system, that underlies
                     the southern portions of South Carolina, Georgia and Alabama as well as the entire state of Florida.
                 </p>
+                <img class="state-image" src="images/walk-way.jpg" alt="Wooden Walk Way">
             </div>
         </div>
     </section>
-
     <section id="prices">
-
         <section id="pricing">
             <div class="row">
-                <div class="pricing-col col-lg-4 col-md-6">
+                <div class="pricing-col col-lg-4 col-md-12">
                     <div class="card">
                         <div class="card-header">
                             <h3>Kelly Rock Springs</h3>
@@ -193,7 +188,6 @@
                             are available at this park.</p>
                         <img class="card-img" src="images/camp.jpg" alt="campsite">
                         <div class="d-grid gap-2">
-
                         </div>
                     </div>
                 </div>
@@ -210,7 +204,6 @@
                             covered pavilions available on a first-come, first-served basis.</p>
                         <img class="card-img" src="images/tubing.jpg" alt="tubing image">
                         <div class="d-grid gap-2">
-
                         </div>
                     </div>
                 </div>
@@ -226,7 +219,6 @@
                             *Admission fee does not include mask, snorkel, and fins which are required!</p>
                         <img class="card-img" src="images/snorkel.jpg" alt="tubing image">
                         <div class="d-grid gap-2">
-
                         </div>
                     </div>
                 </div>
@@ -238,10 +230,8 @@
                     year. Museums, visitor centers and historic sites may be closed two days per week and hours may
                     vary. Check the park's <a class="park-site"
                         href="https://www.floridastateparks.org/"><em>webpage</em></a> for specific information.</h3>
-                <h4>What are you waiting for? Book a trip and bring the whole family for the day!</h4>
+                <h6>What are you waiting for? Book a trip and bring the whole family to visit Florida's natural wonders.</h6>
                 <img class="fun-image" src="images/florida3.png" alt="florida image">
-
-
             </section>
             <footer id="footer">
 
@@ -249,7 +239,7 @@
                 <i class="social-icon fa-brands  footer-instagram fa-instagram"></i>
                 <i class="social-icon fa-brands  footer-twitter fa-twitter"></i>
                 <i class="social-icon fa-solid  footer-envelope fa-envelope"></i>
-                <p class="footer-text">©<em>Copyright</em> Florida's Springs</p>
+                <p class="footer-text">©<em>Copyright</em> Florida's Springs (T.G)</p>
             </footer>
 
 
